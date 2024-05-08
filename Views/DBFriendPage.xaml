@@ -12,6 +12,8 @@
         <Entry Text="{Binding Email}" />
         <Label Text="Phone" />
         <Entry Text="{Binding Phone}" />
+        <Label Text="Image" />
+        <Entry Text="{Binding Image}" />
         <StackLayout Orientation="Horizontal">
             <Button Text="Coхранить" Clicked="SaveFriend" />
                 <Button Text="Удалить" Clicked="DeleteFriend" />

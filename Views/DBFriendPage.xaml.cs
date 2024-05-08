@@ -24,4 +24,9 @@ this.Navigation.PopAsync();
 private void Cancel(object sender, EventArgs e) { 
 this.Navigation.PopAsync();
     }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

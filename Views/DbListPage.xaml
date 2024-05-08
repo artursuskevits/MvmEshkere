@@ -11,6 +11,12 @@
                         <ViewCell.View>
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="{Binding Name}" FontSize="Medium" />
+                                <Image
+                Source="{Binding Image}"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="100"
+                HorizontalOptions="Center"
+                                    WidthRequest="100"/>
                             </StackLayout>
                         </ViewCell.View>
                     </ViewCell>
